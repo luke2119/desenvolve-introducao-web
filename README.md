@@ -1,2 +1,5 @@
 # desenvolve-introducao-web
-Entregas da disciplina de projetos html.
+
+Cidade:Projeto Desenvolve - ItabiraMG.
+Nome da disciplina: Introdução a programação web.
+Matrícula: PDITA242.
