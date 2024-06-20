@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pesquisa de satisfação</title>
+    </head>
+    <body>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+                <h2>Dados pessoais</h2>
+                <p>
+                    <label for="nome">Digite seu nome: </label>
+                    <input type="text" id="nome">
+                </p>
+                <p>
+                    <label for="usuario">Digite seu e-mail: </label>
+                    <input type="email">
+                </p>
+                <p>
+                    <label for="telefone">Digite seu telefone: </label>
+                    <input type="tel" id="telefone">
+                </p>
+            </section>
+            <section>
+                <h2>Dados de Pesquisa</h2>
+                <p>
+                    Numa escala de 1 a 5, por favor, diga-nos o quanto você avalia a experiência do nosso atendimento:
+                    <br>
+                    <input type="radio" id="1" name="xp_atendimento">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="xp_atendimento">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="xp_atendimento">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="xp_atendimento">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="xp_atendimento">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    Numa escala de 1 a 5, por favor, diga-nos o quanto você está satisfeito(a) com a solução do problema:
+                    <br>
+                    <input type="radio" id="1" name="xp_resolucao">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="xp_resolucao">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="xp_resolucao">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="xp_resolucao">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="xp_resolucao">
+                    <label for="5">5</label>
+                </p>
+                <p>
+                    <label for="departamento">Selecione o departamento de atendimento: </label>
+                    <select>
+                        <option >Tecnologia</option>
+                        <option>Logística</option>
+                        <option>Atendimento ao Cliente</option>
+                        <option>Suporte Técnico</option>
+                        <option>Vendas</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox"id="compartilhar_dados">
+                    <label for="compartilhar_dados">Autorizo compartilhar meus dados com terceiros</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
